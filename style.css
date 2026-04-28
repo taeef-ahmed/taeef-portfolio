@@ -107,7 +107,7 @@ section{
     transform: translateY(-100px);
     opacity: 0;
     animation: RightSlide 1s ease forwards;
-    animation-delay: 1s;
+    animation-delay: 0.3s;
 }
 .text-animation{
     position: relative;
@@ -126,7 +126,7 @@ section{
     opacity: 0;
     animation: textSlide 6s linear infinite,
     TopSlide 1s ease forwards;
-    animation-delay: 2s,1.2s;
+    animation-delay: 0.6s,0.4s;
 }
 @keyframes textSlide{
     0%,10%,100%{
@@ -148,7 +148,7 @@ section{
     opacity: 0;
     animation: CursorSlide 6s linear infinite,
     TopSlide 1s ease forwards;
-    animation-delay: 2s,1.2s;
+    animation-delay: 0.6s,0.4s;
 }
 @keyframes CursorSlide {
     0%,10%,100%{
@@ -170,7 +170,7 @@ section{
     transform: translateX(100px);
     opacity: 0;
     animation: leftSlide 1s ease forwards;
-    animation-delay: 1.4s;
+    animation-delay: 0.5s;
 }
 @keyframes leftSlide{
     0%{
@@ -201,7 +201,7 @@ section{
     width: 100%;
     z-index: 2;
     animation: Slide 1s ease forwards;
-    animation-delay: 1.6s;
+    animation-delay: 0.4s;
 }
 @keyframes Slide{
     0%{
@@ -300,7 +300,7 @@ i:hover::after{
     filter: drop-shadow(0 0 8rem #ff00ee);
     animation: Scale 1s ease forwards;
     scale: 0;
-    animation-delay: 2s;
+    animation-delay: 0.6s;
 }
 @keyframes Scale{
     0%{
@@ -437,7 +437,7 @@ section.start-animation .text-content2 .btn{
 }
 section.start-animation .column:nth-child(1){
     animation: Right 1s ease forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.3s;
 }
 
 .column:nth-child(2){
@@ -446,7 +446,7 @@ section.start-animation .column:nth-child(1){
 }
 section.start-animation .column:nth-child(2){
     animation: Left 1s ease forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.3s;
 }
 .column h2{
     font-size: 2.5rem ;
@@ -456,7 +456,7 @@ section.start-animation .column:nth-child(2){
 }
 section.start-animation .column h2{
     animation: top 1s ease forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.3s;
 }
 
 .box{
@@ -518,7 +518,7 @@ section.start-animation .column h2{
 }
 section.start-animation .skill-title{
     animation: top 1s ease forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.3s;
 }
 .skill-content{
     width: 100%;
@@ -537,7 +537,7 @@ section.start-animation .skill-title{
 }
 section.start-animation .skill-box1{
     animation:  Right 1s ease forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.3s;
 }
 .skill-box2{
     opacity: 0;
@@ -545,7 +545,7 @@ section.start-animation .skill-box1{
 }
 section.start-animation .skill-box2{
     animation:Left 1s ease forwards;
-    animation-delay: 1.4s;
+    animation-delay: 0.5s;
 }
 .single-skill{
     display: flex;
@@ -595,7 +595,7 @@ input:nth-child(1){
 }
 section.start-animation input:nth-child(1){
     animation:Right 1s ease forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.3s;
 }
 input:nth-child(2){
     opacity: 0;
@@ -603,7 +603,7 @@ input:nth-child(2){
 }
 section.start-animation input:nth-child(2){
     animation:Left 1s ease forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.3s;
 }
  input,textarea{
     width: 100%;
@@ -622,7 +622,7 @@ section.start-animation input:nth-child(2){
 }
 section.start-animation textarea{
     animation:Bottom 1s ease forwards;
-    animation-delay: 1.2s;
+    animation-delay: 0.3s;
 }
 input::placeholder{
     font-size: 1.5rem;
@@ -650,7 +650,7 @@ textarea{
 }
 section.start-animation .btn{
     animation:Bottom 1s ease forwards;
-    animation-delay: 1.4s;
+    animation-delay: 0.5s;
 }
 .contact .btn:hover{
     background: #ff00ee;
