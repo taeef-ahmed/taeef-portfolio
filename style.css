@@ -944,3 +944,57 @@ footer i{
     font-size: 1.6rem;
     font-weight: 600;
 }
+
+
+/* ===== SKILLS ANIMATION ===== */
+
+.skills-box,
+.language-section,
+.lang-card{
+    opacity: 0;
+    transform: translateY(60px);
+    animation: fadeUp 1s ease forwards;
+}
+
+/* Animation Delay */
+
+.skills-box:nth-child(1){
+    animation-delay: .2s;
+}
+
+.skills-box:nth-child(2){
+    animation-delay: .5s;
+}
+
+.language-section{
+    animation-delay: .8s;
+}
+
+.lang-card:nth-child(1){
+    animation-delay: 1s;
+}
+
+.lang-card:nth-child(2){
+    animation-delay: 1.2s;
+}
+
+.lang-card:nth-child(3){
+    animation-delay: 1.4s;
+}
+
+
+/* KEYFRAMES */
+
+@keyframes fadeUp{
+
+    0%{
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
