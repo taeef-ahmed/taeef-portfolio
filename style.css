@@ -999,60 +999,32 @@ footer i{
 
 }
 
-/* ===== SKILLS ANIMATION ===== */
+/* ===== SIMPLE SKILLS ANIMATION ===== */
 
 .skills-box{
-    opacity: 0;
-    transform: translateY(100px);
     animation: BottomSlide 1s ease forwards;
-}
-
-.skills-box:nth-child(1){
-    animation-delay: .4s;
-}
-
-.skills-box:nth-child(2){
-    animation-delay: .7s;
 }
 
 .language-section{
-    opacity: 0;
-    transform: translateY(100px);
     animation: BottomSlide 1s ease forwards;
-    animation-delay: 1s;
 }
 
 .lang-card{
-    opacity: 0;
-    transform: scale(.8);
     animation: ZoomIn 1s ease forwards;
 }
 
-.lang-card:nth-child(1){
-    animation-delay: 1.2s;
-}
-
-.lang-card:nth-child(2){
-    animation-delay: 1.4s;
-}
-
-.lang-card:nth-child(3){
-    animation-delay: 1.6s;
-}
-
-
-/* ===== ZOOM ANIMATION ===== */
+/* ===== ZOOM ===== */
 
 @keyframes ZoomIn{
 
     0%{
-        opacity: 0;
         transform: scale(.8);
+        opacity: 0;
     }
 
     100%{
-        opacity: 1;
         transform: scale(1);
+        opacity: 1;
     }
 
 }
